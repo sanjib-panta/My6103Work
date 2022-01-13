@@ -1,20 +1,9 @@
-application/cache/*
-application/logs/*
- Laravel 4 specific
-bootstrap/compiled.php
-app/storage/
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
 
-# Laravel 5 & Lumen specific
-public/storage
-public/hot
-
-# Laravel 5 & Lumen specific with changed public path
-public_html/storage
-public_html/hot
-
-storage/*.key
-.env
-Homestead.yaml
-Homestead.json
-/.vagrant
-.phpunit.result.cache
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
